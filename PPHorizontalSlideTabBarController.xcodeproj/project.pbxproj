@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CC4694A1606BA1D00E15D9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC469491606BA1D00E15D9D /* UIKit.framework */; };
+		4CC4694C1606BA1E00E15D9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC4694B1606BA1D00E15D9D /* Foundation.framework */; };
+		4CC4694E1606BA1E00E15D9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC4694D1606BA1E00E15D9D /* CoreGraphics.framework */; };
+		4CC469541606BA1E00E15D9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CC469521606BA1E00E15D9D /* InfoPlist.strings */; };
+		4CC469561606BA1E00E15D9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC469551606BA1E00E15D9D /* main.m */; };
+		4CC4695A1606BA1E00E15D9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC469591606BA1E00E15D9D /* AppDelegate.m */; };
+		4CC4695D1606BA1E00E15D9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4695C1606BA1E00E15D9D /* ViewController.m */; };
+		4CC469601606BA1E00E15D9D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC4695E1606BA1E00E15D9D /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CC469451606BA1D00E15D9D /* PPHorizontalSlideTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPHorizontalSlideTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC469491606BA1D00E15D9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CC4694B1606BA1D00E15D9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CC4694D1606BA1E00E15D9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CC469511606BA1E00E15D9D /* PPHorizontalSlideTabBarController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PPHorizontalSlideTabBarController-Info.plist"; sourceTree = "<group>"; };
+		4CC469531606BA1E00E15D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CC469551606BA1E00E15D9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CC469571606BA1E00E15D9D /* PPHorizontalSlideTabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PPHorizontalSlideTabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		4CC469581606BA1E00E15D9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CC469591606BA1E00E15D9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CC4695B1606BA1E00E15D9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CC4695C1606BA1E00E15D9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CC4695F1606BA1E00E15D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CC469421606BA1D00E15D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC4694A1606BA1D00E15D9D /* UIKit.framework in Frameworks */,
+				4CC4694C1606BA1E00E15D9D /* Foundation.framework in Frameworks */,
+				4CC4694E1606BA1E00E15D9D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CC4693A1606BA1D00E15D9D = {
+			isa = PBXGroup;
+			children = (
+				4CC4694F1606BA1E00E15D9D /* PPHorizontalSlideTabBarController */,
+				4CC469481606BA1D00E15D9D /* Frameworks */,
+				4CC469461606BA1D00E15D9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CC469461606BA1D00E15D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CC469451606BA1D00E15D9D /* PPHorizontalSlideTabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CC469481606BA1D00E15D9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CC469491606BA1D00E15D9D /* UIKit.framework */,
+				4CC4694B1606BA1D00E15D9D /* Foundation.framework */,
+				4CC4694D1606BA1E00E15D9D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CC4694F1606BA1E00E15D9D /* PPHorizontalSlideTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4CC469581606BA1E00E15D9D /* AppDelegate.h */,
+				4CC469591606BA1E00E15D9D /* AppDelegate.m */,
+				4CC4695B1606BA1E00E15D9D /* ViewController.h */,
+				4CC4695C1606BA1E00E15D9D /* ViewController.m */,
+				4CC4695E1606BA1E00E15D9D /* ViewController.xib */,
+				4CC469501606BA1E00E15D9D /* Supporting Files */,
+			);
+			path = PPHorizontalSlideTabBarController;
+			sourceTree = "<group>";
+		};
+		4CC469501606BA1E00E15D9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC469511606BA1E00E15D9D /* PPHorizontalSlideTabBarController-Info.plist */,
+				4CC469521606BA1E00E15D9D /* InfoPlist.strings */,
+				4CC469551606BA1E00E15D9D /* main.m */,
+				4CC469571606BA1E00E15D9D /* PPHorizontalSlideTabBarController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CC469441606BA1D00E15D9D /* PPHorizontalSlideTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC469631606BA1E00E15D9D /* Build configuration list for PBXNativeTarget "PPHorizontalSlideTabBarController" */;
+			buildPhases = (
+				4CC469411606BA1D00E15D9D /* Sources */,
+				4CC469421606BA1D00E15D9D /* Frameworks */,
+				4CC469431606BA1D00E15D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPHorizontalSlideTabBarController;
+			productName = PPHorizontalSlideTabBarController;
+			productReference = 4CC469451606BA1D00E15D9D /* PPHorizontalSlideTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CC4693C1606BA1D00E15D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = pparreno;
+			};
+			buildConfigurationList = 4CC4693F1606BA1D00E15D9D /* Build configuration list for PBXProject "PPHorizontalSlideTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CC4693A1606BA1D00E15D9D;
+			productRefGroup = 4CC469461606BA1D00E15D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CC469441606BA1D00E15D9D /* PPHorizontalSlideTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CC469431606BA1D00E15D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC469541606BA1E00E15D9D /* InfoPlist.strings in Resources */,
+				4CC469601606BA1E00E15D9D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CC469411606BA1D00E15D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC469561606BA1E00E15D9D /* main.m in Sources */,
+				4CC4695A1606BA1E00E15D9D /* AppDelegate.m in Sources */,
+				4CC4695D1606BA1E00E15D9D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CC469521606BA1E00E15D9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC469531606BA1E00E15D9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CC4695E1606BA1E00E15D9D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC4695F1606BA1E00E15D9D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CC469611606BA1E00E15D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CC469621606BA1E00E15D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CC469641606BA1E00E15D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPHorizontalSlideTabBarController/PPHorizontalSlideTabBarController-Prefix.pch";
+				INFOPLIST_FILE = "PPHorizontalSlideTabBarController/PPHorizontalSlideTabBarController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CC469651606BA1E00E15D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPHorizontalSlideTabBarController/PPHorizontalSlideTabBarController-Prefix.pch";
+				INFOPLIST_FILE = "PPHorizontalSlideTabBarController/PPHorizontalSlideTabBarController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CC4693F1606BA1D00E15D9D /* Build configuration list for PBXProject "PPHorizontalSlideTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC469611606BA1E00E15D9D /* Debug */,
+				4CC469621606BA1E00E15D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC469631606BA1E00E15D9D /* Build configuration list for PBXNativeTarget "PPHorizontalSlideTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC469641606BA1E00E15D9D /* Debug */,
+				4CC469651606BA1E00E15D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CC4693C1606BA1D00E15D9D /* Project object */;
+}
