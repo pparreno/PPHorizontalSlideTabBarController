@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CA9CDF9160816F60045591D /* HorizontalScrollTabButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CDF7160816F60045591D /* HorizontalScrollTabButton@2x.png */; };
+		4CA9CDFA160816F60045591D /* HorizontalScrollTabButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CDF8160816F60045591D /* HorizontalScrollTabButton.png */; };
+		4CA9CDFF160823E50045591D /* rightIndicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CDFB160823E50045591D /* rightIndicator.png */; };
+		4CA9CE00160823E50045591D /* rightIndicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CDFC160823E50045591D /* rightIndicator@2x.png */; };
+		4CA9CE01160823E50045591D /* leftIndicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CDFD160823E50045591D /* leftIndicator.png */; };
+		4CA9CE02160823E50045591D /* leftIndicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA9CDFE160823E50045591D /* leftIndicator@2x.png */; };
 		4CC4694A1606BA1D00E15D9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC469491606BA1D00E15D9D /* UIKit.framework */; };
 		4CC4694C1606BA1E00E15D9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC4694B1606BA1D00E15D9D /* Foundation.framework */; };
 		4CC4694E1606BA1E00E15D9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC4694D1606BA1E00E15D9D /* CoreGraphics.framework */; };
@@ -15,9 +21,17 @@
 		4CC4695A1606BA1E00E15D9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC469591606BA1E00E15D9D /* AppDelegate.m */; };
 		4CC4695D1606BA1E00E15D9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4695C1606BA1E00E15D9D /* ViewController.m */; };
 		4CC469601606BA1E00E15D9D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC4695E1606BA1E00E15D9D /* ViewController.xib */; };
+		4CC469691606BA6600E15D9D /* PPHorizontalSlideTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC469681606BA6600E15D9D /* PPHorizontalSlideTabBarView.m */; };
+		4CC46976160729B000E15D9D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC46975160729B000E15D9D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CA9CDF7160816F60045591D /* HorizontalScrollTabButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HorizontalScrollTabButton@2x.png"; sourceTree = "<group>"; };
+		4CA9CDF8160816F60045591D /* HorizontalScrollTabButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HorizontalScrollTabButton.png; sourceTree = "<group>"; };
+		4CA9CDFB160823E50045591D /* rightIndicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightIndicator.png; sourceTree = "<group>"; };
+		4CA9CDFC160823E50045591D /* rightIndicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightIndicator@2x.png"; sourceTree = "<group>"; };
+		4CA9CDFD160823E50045591D /* leftIndicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftIndicator.png; sourceTree = "<group>"; };
+		4CA9CDFE160823E50045591D /* leftIndicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftIndicator@2x.png"; sourceTree = "<group>"; };
 		4CC469451606BA1D00E15D9D /* PPHorizontalSlideTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPHorizontalSlideTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC469491606BA1D00E15D9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4CC4694B1606BA1D00E15D9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,6 +45,9 @@
 		4CC4695B1606BA1E00E15D9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4CC4695C1606BA1E00E15D9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4CC4695F1606BA1E00E15D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4CC469671606BA6600E15D9D /* PPHorizontalSlideTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHorizontalSlideTabBarView.h; sourceTree = "<group>"; };
+		4CC469681606BA6600E15D9D /* PPHorizontalSlideTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPHorizontalSlideTabBarView.m; sourceTree = "<group>"; };
+		4CC46975160729B000E15D9D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC46976160729B000E15D9D /* QuartzCore.framework in Frameworks */,
 				4CC4694A1606BA1D00E15D9D /* UIKit.framework in Frameworks */,
 				4CC4694C1606BA1E00E15D9D /* Foundation.framework in Frameworks */,
 				4CC4694E1606BA1E00E15D9D /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +68,8 @@
 		4CC4693A1606BA1D00E15D9D = {
 			isa = PBXGroup;
 			children = (
+				4CC46975160729B000E15D9D /* QuartzCore.framework */,
+				4CC469661606BA3600E15D9D /* PPHorizontaSlideTabBarView */,
 				4CC4694F1606BA1E00E15D9D /* PPHorizontalSlideTabBarController */,
 				4CC469481606BA1D00E15D9D /* Frameworks */,
 				4CC469461606BA1D00E15D9D /* Products */,
@@ -96,6 +116,21 @@
 				4CC469571606BA1E00E15D9D /* PPHorizontalSlideTabBarController-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CC469661606BA3600E15D9D /* PPHorizontaSlideTabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				4CA9CDFB160823E50045591D /* rightIndicator.png */,
+				4CA9CDFC160823E50045591D /* rightIndicator@2x.png */,
+				4CA9CDFD160823E50045591D /* leftIndicator.png */,
+				4CA9CDFE160823E50045591D /* leftIndicator@2x.png */,
+				4CA9CDF7160816F60045591D /* HorizontalScrollTabButton@2x.png */,
+				4CA9CDF8160816F60045591D /* HorizontalScrollTabButton.png */,
+				4CC469671606BA6600E15D9D /* PPHorizontalSlideTabBarView.h */,
+				4CC469681606BA6600E15D9D /* PPHorizontalSlideTabBarView.m */,
+			);
+			name = PPHorizontaSlideTabBarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +186,12 @@
 			files = (
 				4CC469541606BA1E00E15D9D /* InfoPlist.strings in Resources */,
 				4CC469601606BA1E00E15D9D /* ViewController.xib in Resources */,
+				4CA9CDF9160816F60045591D /* HorizontalScrollTabButton@2x.png in Resources */,
+				4CA9CDFA160816F60045591D /* HorizontalScrollTabButton.png in Resources */,
+				4CA9CDFF160823E50045591D /* rightIndicator.png in Resources */,
+				4CA9CE00160823E50045591D /* rightIndicator@2x.png in Resources */,
+				4CA9CE01160823E50045591D /* leftIndicator.png in Resources */,
+				4CA9CE02160823E50045591D /* leftIndicator@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +205,7 @@
 				4CC469561606BA1E00E15D9D /* main.m in Sources */,
 				4CC4695A1606BA1E00E15D9D /* AppDelegate.m in Sources */,
 				4CC4695D1606BA1E00E15D9D /* ViewController.m in Sources */,
+				4CC469691606BA6600E15D9D /* PPHorizontalSlideTabBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +321,7 @@
 				4CC469651606BA1E00E15D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
