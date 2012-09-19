@@ -17,6 +17,7 @@
 
 @synthesize tabBar;
 @synthesize items;
+@synthesize textLabel;
 
 
 -(id)initWithCoder:(NSCoder *)aDecoder{
@@ -88,6 +89,7 @@
 - (void)tabBarView:(PPHorizontalSlideTabBarView *)horizMenu itemSelectedAtIndex:(NSUInteger)index
 {
     NSLog(@"selected itemIndex: %d", index);
+    [textLabel setText:[NSString stringWithFormat:@"selected itemIndex: %d", index]];
 }
 
 #pragma mark - UIScrollViewDelegate

@@ -33,9 +33,6 @@
 @property (nonatomic, strong) IBOutlet UIImageView *leftIndicatorView;
 @property (nonatomic, strong) IBOutlet UIImageView *rightIndicatorView;
 
-//tentative properties
-@property (nonatomic, assign) int selectedIndex;
-
 -(void) loadItemsToView;
 -(void) tabButtonPressed:(id)sender;
 

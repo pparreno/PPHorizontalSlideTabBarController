@@ -100,6 +100,9 @@
         
         [tabButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         [tabButton setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
+        [tabButton setTitleShadowColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [tabButton setTitleShadowColor:[UIColor grayColor] forState:UIControlStateSelected];
+        [tabButton.titleLabel setShadowOffset:CGSizeMake(0, 0.5)];
         [tabButton.titleLabel setFont:[UIFont fontWithName:@"Helvetica-Bold" size:14.0f]];
         
 
@@ -117,6 +120,10 @@
     }
     
     [self layoutSubviews];
+    
+    if (isFirstTimeLoaded) {
+        [horizTabBarDelegate tabBarView:self itemSelectedAtIndex:0];
+    }
 }
 
 -(void)tabButtonPressed:(id)sender

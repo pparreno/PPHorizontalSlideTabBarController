@@ -12,6 +12,8 @@
 @interface ViewController : UIViewController <PPHorizontalSlideTabBarDatasource, PPHorizontalSlideTabBarDelegate, UIScrollViewDelegate>
 
 @property (nonatomic, strong) IBOutlet PPHorizontalSlideTabBarView *tabBar;
+@property (nonatomic, strong) IBOutlet UILabel *textLabel;
 @property (nonatomic, strong) NSMutableArray *items;
+
 
 @end
